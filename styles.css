@@ -14,10 +14,3 @@ p{
     font-size: larger;
     text-align: left;
 }
-
-img{
-    alt: cars;
-    position: static;
-    height: 300px;
-    width: 400px;
-}
