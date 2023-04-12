@@ -1,0 +1,23 @@
+h1{
+    color: rgb(0, 255, 247);
+    text-align: left;
+}
+body{
+    background-color: antiquewhite;
+    background-image: url( https://images.unsplash.com/photo-1493238792000-8113da705763?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: 100%;
+
+}
+p{
+    font-style: italic;
+    color: rgb(0, 233, 116);
+    font-size: larger;
+    text-align: left;
+}
+
+img{
+    alt: cars;
+    position: static;
+    height: 300px;
+    width: 400px;
+}
