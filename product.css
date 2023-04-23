@@ -1,0 +1,102 @@
+.attribution { font-size: 11px; text-align: center; 
+ color: hsl(228, 45%, 44%);
+ position:relative;
+ top:650px;
+ 
+}
+
+ body{
+  background-color: hsl(30, 38%, 92%);  
+  text-align: left;
+  }
+
+ img{
+    width: 300px;
+    border-radius: 4px;
+
+
+ }
+ h2{
+    font-size: smaller;
+    font-family: 'Montserrat';
+    font-weight: 500 , 700;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: grey;
+   position: relative;
+   bottom: 70px;
+   
+
+    
+ }
+ h1{
+    
+    font-family: 'Fraunces';
+    font-style: oblique;
+    font-style: italic;
+ }
+ table{
+border-spacing: 0;
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    border-radius: 4px;
+    display: block;
+    
+
+ }
+ .content{
+    background-color: white;
+    border-radius: 4px;
+  width:300px;
+  position: relative;
+ 
+ }
+ .content1{position: relative;
+    bottom: 70px;
+    border-radius: 4px;
+   
+ }
+ .content2{
+   font-style: normal;
+    font-family:'Montserrat';
+ }
+ .price{
+   color:  hsl(158, 36%, 37%);
+   font-family: 'Fraunces';
+   font-size: 30px;
+   font-weight: 700;
+   position: relative;
+   top: 30px;
+   left: 30px;
+
+ }
+ .price2{
+   font-size: medium;
+   position: relative;
+   top: 4px;
+   left: 155px;
+   text-decoration: line-through;
+ 
+ }
+form{
+   border-radius: 5px;
+   text-align: center;
+   background-color:hsl(158, 36%, 37%) ;
+   color: white;
+   font-family: 'Fraunces';
+   font-size: 15px;
+   font-weight: 700;
+   width: 50%;
+   padding: 12px 20px;
+ 
+   position: relative;
+   top: 30px;
+   left: 10px;
+
+
+
+
+}
+.cartt{
+   width: 10%;
