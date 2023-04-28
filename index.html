@@ -4,80 +4,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mondrian Project</title>
+  <title>Flex Direction</title>
+  <!-- HINT:
+  https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors
+  https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators 
+  -->
   <style>
-    
-    /* 
-    Write your CSS here 
-    Gap Colour: #000
-    White: #F0F1EC
-    Red: #E72F24
-    Black: #232629
-    Blue: #004592
-    Yellow: #F9D01E
+    .container {
+      color: white;
+      border: 5px solid gold;
+      display: flex;
+      flex-direction: column;
+      width:50px ;
+      
+    }
+    .container > *{
+      flex-basis: 100px;
+    }
 
-    For dimensions, see dimensions.png image.
-    HINT: Remember you can't change the properties of grid lines.
-    But grid lines are transparent!
+    /*
+Select all the elements that are the direct
+children of the .container class.
     */
-  .mondrian{
-    display: grid;
-    width: 748px;
-    height: 748px;
-    background-color:  #000;
-    gap: 9px;
-    grid-template-rows: 414px 285px 20px;
-    grid-template-columns: 320px 428px;
-    grid-auto-columns: 50px;
 
-  }
-  .item1{
-    background-color: #E72F24;
-  }
-  .item2{
-    background-color: #F0F1EC;
-  }
-  .item3{
-    background-color: #F0F1EC;
-width: 320px;    
-  }
-  .item4{
-    background-color: #F0F1EC;
-  }
-  .item5{
-    background-color: #f9d01e;
-
-  }
-  .item6{
-    background-color: #000;
-
-  }
-  .item7{
-    background-color: #000;
-  }
-  .item8{
-    background-color: #232629;
-  }
-  .item9{
-    background-color: #F0F1EC;
-  }
-
+    .red {background-color: #eb4d4b;}
+    .orange {background-color: #f0932b;}
+    .yellow {background-color: #f6e58d;}
+    .green {background-color: #6ab04c;}
+    .blue {background-color: #4834d4;}
+    .indigo {background-color: #30336b;}
+    .purple {background-color: #be2edd;}
   </style>
 </head>
 
 <body>
-  <!-- Write your HTML here -->
-  <div class="mondrian">
-    <div class="item1"></div>
-    <div class="item2"></div>
-    <div class="item3"></div>
-    <div class="item4"></div>
-    <div class="item5"></div>
-    <div class="item6"></div>
-    <div class="item7"></div>
-    <div class="item8"></div>
-    <div class="item9"></div>
+  <div class="container">
+    <div class="red">Red</div>
+    <div class="orange">Orange</div>
+    <div class="yellow">Yellow</div>
+    <div class="green">Green</div>
+    <div class="blue">Blue</div>
+    <div class="indigo">Indigo</div>
+    <div class="purple">Purple</div>
   </div>
+  
 </body>
 
 </html>
