@@ -1,36 +1,5 @@
-
-/*****************************************Tag Selector****************/
-h1{
-    color: rgb(1, 45, 43);
-    text-align: left;
-}
-body{
-    background-color: antiquewhite;
- 
-    background-size: 100%;
+.huge{
+ font-size: 10rem;
+ color: red;
 
 }
-p{
-    font-style: italic;
-    color: rgb(18, 101, 60);
-    font-size: larger;
-    text-align: left;
-}
-/*****************************************Class selector****************/
-/**************************************pseudo selector****************/
-.f1:hover{
-    background-color: blue;
-}
-
-.f1 {
-    background-color: rgb(0, 0, 0);
-    height: 250px;
-    width: 350px;
-    
-}
-.f2{
-    background-color: green;
-    height: 200px;
-    width: 300px;
-}
-/****************************************Id selector****************/
